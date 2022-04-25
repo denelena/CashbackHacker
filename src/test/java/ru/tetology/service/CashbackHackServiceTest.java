@@ -24,7 +24,7 @@ public class CashbackHackServiceTest {
     public void shouldGetRemainIfAtExactBoundary() {
         CashbackHackService chs = new CashbackHackService();
         int actual = chs.remain(2000);
-        Assert.assertEquals(actual, 1000);
+        Assert.assertEquals(actual, 0);
     }
 
     @Test
